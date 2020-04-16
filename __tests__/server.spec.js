@@ -1,20 +1,20 @@
 const server = require("../server");
 const request = require("supertest");
-const db = require("../Operations/db-config");
+const db = require("../database/db-config");
 // const Users = require("../crudOperations/userOperations/userModel");
 
 describe("ROUTE TESTING", () => {
-  beforeAll(async () => {
-    return (
-      await db.migrate.rollback(),
-      await db.migrate.latest(),
-      await db.seed.run()
-    );
-  });
+  //   beforeAll(async () => {
+  //     return (
+  //       await db.migrate.rollback(),
+  //       await db.migrate.latest(),
+  //       await db.seed.run()
+  //     );
+  //   });
 
-  afterAll(async () => {
-    return await db.migrate.rollback();
-  });
+  //   afterAll(async () => {
+  //     return await db.migrate.rollback();
+  //   });
 
   //put tests in here
   //   vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv  SERVER STATUS  vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv   //
@@ -36,7 +36,7 @@ describe("ROUTE TESTING", () => {
 
       it("should return a JSON object from the index route", async () => {
         const expectedBody = {
-          status: "The Merch Dropper server is running!!",
+          status: "The Portfolio server is running!!",
         };
         const response = await request(server).get("/");
         expect(response.body).toEqual(expectedBody);
