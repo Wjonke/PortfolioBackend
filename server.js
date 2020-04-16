@@ -5,10 +5,9 @@ const morgan = require("morgan");
 const colors = require("colors");
 
 //////    import Router files    //////
-//fix these paths when they get created
-// const authRouter = require("./authOperations/authRouter");
-// const skillsRouter = require("./crudOperations/userOperations/userRouter");
-// const projectsRouter = require("./crudOperations/storeOperations/storeRouter");
+// const authRouter = require("./crudOperations/auth/authRouter");
+const skillsRouter = require("./crudOperations/skills/skillsRouter");
+const projectsRouter = require("./crudOperations//projects/projectsRouter");
 
 const server = express();
 
@@ -38,10 +37,9 @@ server.use(
 // }
 
 //////    Use routers    ///////
-//fix the paths when they get created
 // server.use("/api/auth", authRouter);
-// server.use("/api/users", skillsRouter);
-// server.use("/api/stores", projectsRouter);
+server.use("/api/skills", skillsRouter);
+server.use("/api/projects", projectsRouter);
 
 //testing that the server works
 server.get("/", (req, res) => {
