@@ -8,6 +8,7 @@ exports.up = function (knex) {
     projects.string("code_url", 255).notNullable();
     projects.string("img_url", 255).notNullable();
     projects.string("description", 1000).notNullable();
+    projects.string("techStack", 1000).notNullable();
     projects.string("role", 500).notNullable();
     projects.timestamps(true, true);
   });
