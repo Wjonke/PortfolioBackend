@@ -4,6 +4,7 @@ const db = require("../database/db-config");
 // const Users = require("../crudOperations/userOperations/userModel");
 
 describe("ROUTE TESTING", () => {
+  //uncomment these after fixing DB migrations and seeds
   //   beforeAll(async () => {
   //     return (
   //       await db.migrate.rollback(),
@@ -16,7 +17,6 @@ describe("ROUTE TESTING", () => {
   //     return await db.migrate.rollback();
   //   });
 
-  //put tests in here
   //   vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv  SERVER STATUS  vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv   //
   describe("Should be in testing environment", () => {
     it("should be in testing environment", () => {
@@ -48,4 +48,6 @@ describe("ROUTE TESTING", () => {
       });
     });
   });
+
+  //put additional tests in here
 });
