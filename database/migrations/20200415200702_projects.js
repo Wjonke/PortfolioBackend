@@ -10,7 +10,6 @@ exports.up = function (knex) {
     projects.string("description", 1000).notNullable();
     projects.string("techStack", 1000).notNullable();
     projects.string("role", 500).notNullable();
-    projects.timestamps(true, true);
   });
 };
 
