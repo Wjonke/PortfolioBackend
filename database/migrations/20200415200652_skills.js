@@ -1,5 +1,3 @@
-//placeholder migration
-
 exports.up = function (knex) {
   return knex.schema.createTable("skills", (skills) => {
     skills.increments("id").primary();

@@ -5,6 +5,5 @@ module.exports = {
 };
 
 function find() {
-  return db(projects).select("*");
+  return db("projects").select("*");
 }
-//add call to github later for projects if needed or hard code them

@@ -5,5 +5,5 @@ module.exports = {
 };
 
 function find() {
-  return db(skills).select("*");
+  return db("skills");
 }

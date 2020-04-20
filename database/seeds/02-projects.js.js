@@ -1,8 +1,8 @@
 exports.seed = function (knex) {
-  return knex("table_name")
+  return knex("projects")
     .del()
     .then(function () {
-      return knex("table_name").insert([
+      return knex("projects").insert([
         {
           id: 1,
           name: "rowValue1",
