@@ -13,7 +13,7 @@ exports.seed = function (knex) {
           id: 2,
           name: "Javascript",
           imgUrl:
-            "https://res.cloudinary.com/wjonke/image/upload/v1587395323/SkillsPng/JS_aizjhc.png",
+            "https://res.cloudinary.com/wjonke/image/upload/v1587394108/JS_yyhsbn.jpg",
         },
         {
           id: 3,
@@ -25,7 +25,7 @@ exports.seed = function (knex) {
           id: 4,
           name: "HTML",
           imgUrl:
-            "https://res.cloudinary.com/wjonke/image/upload/v1587395323/SkillsPng/HTML_geqlwo.png",
+            "https://res.cloudinary.com/wjonke/image/upload/c_thumb,w_200,g_face/v1587394108/HTML_kbpxaq.jpg",
         },
         {
           id: 5,
@@ -103,7 +103,7 @@ exports.seed = function (knex) {
           id: 17,
           name: "Github",
           imgUrl:
-            "https://res.cloudinary.com/wjonke/image/upload/v1587395242/Github_emm7go.png",
+            "https://res.cloudinary.com/wjonke/image/upload/c_thumb,w_200,g_face/v1587394108/github-logo_uwq6jk.jpg",
         },
         {
           id: 18,
