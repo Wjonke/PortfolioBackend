@@ -3,7 +3,7 @@ const dotenv = require("dotenv");
 const colors = require("colors");
 
 ////setting up environmental variables////
-dotenv.config({ path: "./config/config.env" });
+dotenv.config({ path: ".env" });
 
 const PORT = process.env.PORT || 4000;
 
