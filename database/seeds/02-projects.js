@@ -7,10 +7,7 @@ exports.seed = function (knex) {
           id: 1,
           name: "Merch Dropper",
           deployed_url: "merchdropper.netlify.app",
-          code_url: {
-            backend: "https://github.com/Wjonke/Merch-Dropper-be",
-            frontend: "https://github.com/Wjonke/Merch-Dropper-fe",
-          },
+          code_url: "https://github.com/Wjonke/Merch-Dropper-be",
           img_url:
             "https://image.thum.io/get/https://merchdropper.netlify.app/",
           description:
