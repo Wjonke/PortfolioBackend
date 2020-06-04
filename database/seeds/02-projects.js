@@ -11,10 +11,10 @@ exports.seed = function (knex) {
           img_url:
             "https://image.thum.io/get/https://merchdropper.netlify.app/",
           description:
-            "Merch Dropper is a quick and easy platform to upload designs and create products that plug into scalablepress.com to create a drop-shipping online shop. No inventory required!",
-          techStack: "Axios, Node.js, Express, Knex, JWT, Stripe, PostgreSQL",
+            "Merch Dropper is a quick and easy platform to upload designs and create products to create a drop-shipping online shop.",
+          techStack: "Axios, Express, Knex, JWT, Stripe, PostgreSQL",
           role:
-            "Backend Dev, Frontend Design Consultant - My focus was on developing the backend as well as incorporating Scalable Press and Stripe API's, and handling the distribution of data to ensure the backend and frontend API calls were in sync. I was involved in the creation of the front end from a design and structural standpoint. This project was a fun experience learning how to handle what was essentially 'Data hot-potato'.",
+            "My focus was on developing the backend as well as incorporating 3'rd party API's, and handling the distribution of data to ensure the backend and frontend API calls were in sync. ",
         },
         {
           id: 2,
@@ -64,9 +64,9 @@ exports.seed = function (knex) {
           description:
             "This 'WIP' app is used to find github members with a simple search and then displays some metadata about the user selected",
           techStack:
-            "CSS, Javascript, React with hooks and context API for state management, React-Router, Axios",
+            "CSS, Javascript, React-hooks-context API, React-Router, Axios",
           role:
-            "Develop a site to search through the Github API and parse user data to find users and display key parts of their profile",
+            "Develop a site to search through the Github API and parse user data to find users and display key parts of their profile.",
         },
         {
           id: 6,
@@ -78,9 +78,9 @@ exports.seed = function (knex) {
           description:
             "This 'WIP' app is used to find github members with a simple search and then displays some metadata about the user selected",
           techStack:
-            "CSS, Javascript, React in class components, React-Router, Axios",
+            "CSS, Javascript, React-class components, React-Router, Axios",
           role:
-            "Develop a site to search through the Github API and parse user data to find users and display key parts of their profile",
+            "Develop a site to search through the Github API and parse user data to find users and display key parts of their profile.",
         },
       ]);
     });
