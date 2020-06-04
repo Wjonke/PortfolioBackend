@@ -39,7 +39,7 @@ exports.seed = function (knex) {
             "PokeAdventure is a forum-based, Pokemon role-play site. Members can come together and share their favorite or some brand new adventures, based solely on their imagination and limited only by their creativity.",
           techStack: "Jcink-platform, HTML, CSS, Javascript",
           role:
-            "I was responsible, along with my teammate, for the Design and Development of this site",
+            "I was responsible, along with my teammate, for the Design and Development of this site per our clients specifications",
         },
         {
           id: 4,
