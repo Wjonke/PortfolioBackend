@@ -32,7 +32,8 @@
 ## Endpoints
 
 ### base URL `https://wjonke-portfolio.herokuapp.com `
-<br> 
+<br>
+
 ### Data Routes used by front end
 
 | Method | Endpoint                        | Access Control | Description                                |
