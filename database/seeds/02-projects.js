@@ -30,7 +30,7 @@ exports.seed = function (knex) {
         },
         {
           id: 3,
-          name: "Fotograph-HTML-Template",
+          name: "Fotograph-Template",
           deployed_url: "https://fotographmarketing-template.netlify.app",
           code_url: "https://github.com/Wjonke/art-portfolio-UI-Wes-Jonke",
           img_url:
