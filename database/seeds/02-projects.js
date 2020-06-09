@@ -18,12 +18,12 @@ exports.seed = function (knex) {
         },
         {
           id: 2,
-          name: "PokeAdventure",
+          name: "Poke Adventure",
           deployed_url: "http://pokeadventure.jcink.net/",
           code_url: "Private Code Base",
           img_url: "https://image.thum.io/get/http://pokeadventure.jcink.net/",
           description:
-            "PokeAdventure is a forum-based, Pokemon role-play site. Members can come together and share their favorite or even some brand new adventures.",
+            "PokeAdventure is a forum-based, Pokemon role-play site. Members can come together and share their favorite adventures.",
           techStack: "Jcink-platform, HTML, CSS, Javascript",
           role:
             "I was responsible, along with my teammate, for the Design and Development of this site per our clients specifications",
