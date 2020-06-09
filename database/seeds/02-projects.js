@@ -18,16 +18,15 @@ exports.seed = function (knex) {
         },
         {
           id: 2,
-          name: "Fotograph-NoTemplate",
-          deployed_url: "https://fotograph-marketingpage.netlify.app",
-          code_url: "https://github.com/Wjonke/art-portfolio-UI-Wes",
-          img_url:
-            "https://image.thum.io/get/https://fotograph-marketingpage.netlify.app/",
+          name: "PokeAdventure",
+          deployed_url: "http://pokeadventure.jcink.net/",
+          code_url: "Private Code Base",
+          img_url: "https://image.thum.io/get/http://pokeadventure.jcink.net/",
           description:
-            "This version of my Marketing page for our Artist Portfolio site was implemented using Vanilla HTML, CSS and Javascript.",
-          techStack: "HTML, CSS, Javascript",
+            "PokeAdventure is a forum-based, Pokemon role-play site. Members can come together and share their favorite or some brand new adventures, based solely on their imagination and limited only by their creativity.",
+          techStack: "Jcink-platform, HTML, CSS, Javascript",
           role:
-            "Design and develop a static marketing site for our Photographers Social Portfolio Site",
+            "I was responsible, along with my teammate, for the Design and Development of this site per our clients specifications",
         },
         {
           id: 3,
@@ -44,15 +43,16 @@ exports.seed = function (knex) {
         },
         {
           id: 4,
-          name: "PokeAdventure",
-          deployed_url: "http://pokeadventure.jcink.net/",
-          code_url: "Private Code Base",
-          img_url: "https://image.thum.io/get/http://pokeadventure.jcink.net/",
+          name: "Fotograph-NoTemplate",
+          deployed_url: "https://fotograph-marketingpage.netlify.app",
+          code_url: "https://github.com/Wjonke/art-portfolio-UI-Wes",
+          img_url:
+            "https://image.thum.io/get/https://fotograph-marketingpage.netlify.app/",
           description:
-            "PokeAdventure is a forum-based, Pokemon role-play site. Members can come together and share their favorite or some brand new adventures, based solely on their imagination and limited only by their creativity.",
-          techStack: "Jcink-platform, HTML, CSS, Javascript",
+            "This version of my Marketing page for our Artist Portfolio site was implemented using Vanilla HTML, CSS and Javascript.",
+          techStack: "HTML, CSS, Javascript",
           role:
-            "I was responsible, along with my teammate, for the Design and Development of this site per our clients specifications",
+            "Design and develop a static marketing site for our Photographers Social Portfolio Site",
         },
         {
           id: 5,
