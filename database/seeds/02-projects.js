@@ -23,7 +23,7 @@ exports.seed = function (knex) {
           code_url: "Private Code Base",
           img_url: "https://image.thum.io/get/http://pokeadventure.jcink.net/",
           description:
-            "PokeAdventure is a forum-based, Pokemon role-play site. Members can come together and share their favorite or some brand new adventures, based solely on their imagination and limited only by their creativity.",
+            "PokeAdventure is a forum-based, Pokemon role-play site. Members can come together and share their favorite or even some brand new adventures.",
           techStack: "Jcink-platform, HTML, CSS, Javascript",
           role:
             "I was responsible, along with my teammate, for the Design and Development of this site per our clients specifications",
@@ -36,7 +36,7 @@ exports.seed = function (knex) {
           img_url:
             "https://image.thum.io/get/https://fotographmarketing-template.netlify.app",
           description:
-            "This version of My Marketing page for our Artist Portfolio site was implemented using a HTML5UP Template and edited to fit our needs.",
+            "This version of My Marketing page for our Artist Portfolio site was implemented using a HTML5UP Template.",
           techStack: "HTML5up-template, HTML, CSS, Javascript",
           role:
             "Design and develop a marketing site for our Photographers Social Portfolio Site",
