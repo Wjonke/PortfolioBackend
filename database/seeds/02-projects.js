@@ -18,19 +18,32 @@ exports.seed = function (knex) {
         },
         {
           id: 2,
-          name: "Fotograph-Vanilla",
+          name: "Fotograph-NoTemplate",
           deployed_url: "https://fotograph-marketingpage.netlify.app",
           code_url: "https://github.com/Wjonke/art-portfolio-UI-Wes",
           img_url:
             "https://image.thum.io/get/https://fotograph-marketingpage.netlify.app/",
           description:
-            "We solve the problem of not having professional portfolio display platform, you will be proud to display your work on our website, whether it’s in a client’s board room or showing off to colleges. Be proud of your work and trust us to deliver it with impact.",
+            "This version of my Marketing page for our Artist Portfolio site was implemented using Vanilla HTML, CSS and Javascript.",
           techStack: "HTML, CSS, Javascript",
           role:
             "Design and develop a static marketing site for our Photographers Social Portfolio Site",
         },
         {
           id: 3,
+          name: "Fotograph-HTML-Template",
+          deployed_url: "https://fotographmarketing-template.netlify.app",
+          code_url: "https://github.com/Wjonke/art-portfolio-UI-Wes-Jonke",
+          img_url:
+            "https://image.thum.io/get/https://fotographmarketing-template.netlify.app",
+          description:
+            "This version of My Marketing page for our Artist Portfolio site was implemented using a HTML5UP Template and edited to fit our needs.",
+          techStack: "HTML5up-template, HTML, CSS, Javascript",
+          role:
+            "Design and develop a marketing site for our Photographers Social Portfolio Site",
+        },
+        {
+          id: 4,
           name: "PokeAdventure",
           deployed_url: "http://pokeadventure.jcink.net/",
           code_url: "Private Code Base",
@@ -40,19 +53,6 @@ exports.seed = function (knex) {
           techStack: "Jcink-platform, HTML, CSS, Javascript",
           role:
             "I was responsible, along with my teammate, for the Design and Development of this site per our clients specifications",
-        },
-        {
-          id: 4,
-          name: "Fotograph-HTML-Template",
-          deployed_url: "https://fotographmarketing-template.netlify.app",
-          code_url: "https://github.com/Wjonke/art-portfolio-UI-Wes-Jonke",
-          img_url:
-            "https://image.thum.io/get/https://fotographmarketing-template.netlify.app",
-          description:
-            "We solve the problem of not having professional portfolio display platform, you will be proud to display your work on our website, whether it’s in a client’s board room or showing off to colleges. Be proud of your work and trust us to deliver it with impact.",
-          techStack: "HTML5up-template, HTML, CSS, Javascript",
-          role:
-            "Design and develop a marketing site for our Photographers Social Portfolio Site",
         },
         {
           id: 5,
