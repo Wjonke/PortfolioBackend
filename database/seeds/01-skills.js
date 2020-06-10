@@ -11,7 +11,7 @@ exports.seed = function (knex) {
         },
         {
           id: 2,
-          name: "Javascript",
+          name: "JavaScript",
           imgUrl:
             "https://res.cloudinary.com/wjonke/image/upload/v1587394108/JS_yyhsbn.jpg",
         },
@@ -41,7 +41,7 @@ exports.seed = function (knex) {
         },
         {
           id: 7,
-          name: "React using Hooks & Context ",
+          name: "React + Hooks & Context ",
           imgUrl:
             "https://res.cloudinary.com/wjonke/image/upload/v1587408364/SkillsPng/reactContextHooks_kty7cm.jpg",
         },
@@ -53,7 +53,7 @@ exports.seed = function (knex) {
         },
         {
           id: 9,
-          name: "Postgres",
+          name: "PostgreSQL",
           imgUrl:
             "https://res.cloudinary.com/wjonke/image/upload/v1587395323/SkillsPng/Postgres_uwo1tz.png",
         },
@@ -77,13 +77,13 @@ exports.seed = function (knex) {
         },
         {
           id: 13,
-          name: "AdobeXD",
+          name: "Adobe XD",
           imgUrl:
             "https://res.cloudinary.com/wjonke/image/upload/v1587395242/AdobeXD_qbhqia.png",
         },
         {
           id: 14,
-          name: "SASS",
+          name: "Sass",
           imgUrl:
             "https://res.cloudinary.com/wjonke/image/upload/v1587395243/Sass_tmvmcq.png",
         },
@@ -101,7 +101,7 @@ exports.seed = function (knex) {
         },
         {
           id: 17,
-          name: "Github",
+          name: "GitHub",
           imgUrl:
             "https://res.cloudinary.com/wjonke/image/upload/c_thumb,w_200,g_face/v1587394108/github-logo_uwq6jk.jpg",
         },

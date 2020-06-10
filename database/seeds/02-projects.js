@@ -14,7 +14,7 @@ exports.seed = function (knex) {
             "Merch Dropper is a quick and easy platform to upload designs and create products to create a drop-shipping online shop.",
           techStack: "Axios, Express, Knex, JWT, Stripe, PostgreSQL",
           role:
-            "My focus was on developing the backend as well as incorporating 3'rd party API's, and handling the distribution of data to ensure the backend and frontend API calls were in sync. ",
+            "My focus was on developing the backend as well as incorporating third party APIs, and handling the distribution of data to ensure the backend and frontend API calls were in sync.",
         },
         {
           id: 2,
@@ -24,7 +24,7 @@ exports.seed = function (knex) {
           img_url: "https://image.thum.io/get/http://pokeadventure.jcink.net/",
           description:
             "PokeAdventure is a forum-based, Pokemon role-play site. Members can come together and share their favorite adventures.",
-          techStack: "Jcink-platform, HTML, CSS, Javascript",
+          techStack: "Jcink-platform, HTML, CSS, JavaScript",
           role:
             "I was responsible, along with my teammate, for the Design and Development of this site per our clients specifications",
         },
@@ -36,10 +36,10 @@ exports.seed = function (knex) {
           img_url:
             "https://image.thum.io/get/https://fotographmarketing-template.netlify.app",
           description:
-            "This version of My Marketing page for our Artist Portfolio site was implemented using a HTML5UP Template.",
-          techStack: "HTML5up-template, HTML, CSS, Javascript",
+            "This version of my marketing page for our artist portfolio site was implemented using a HTML5UP Template.",
+          techStack: "HTML5up, HTML, CSS, JavaScript",
           role:
-            "Design and develop a marketing site for our Photographers Social Portfolio Site",
+            "Design and develop a marketing site for our photographers social media and portfolio site",
         },
         {
           id: 4,
@@ -49,38 +49,38 @@ exports.seed = function (knex) {
           img_url:
             "https://image.thum.io/get/https://fotograph-marketingpage.netlify.app/",
           description:
-            "This version of my Marketing page for our Artist Portfolio site was implemented using Vanilla HTML, CSS and Javascript.",
-          techStack: "HTML, CSS, Javascript",
+            "This version of my marketing page for our artist portfolio site was implemented using vanilla HTML, CSS and JavaScript.",
+          techStack: "HTML, CSS, JavaScript",
           role:
-            "Design and develop a static marketing site for our Photographers Social Portfolio Site",
+            "Design and develop a marketing site for our photographers social media and portfolio site",
         },
         {
           id: 5,
-          name: "Github Finder with Hooks",
+          name: "GitHub Finder with Hooks",
           deployed_url: "https://github-finder-with-hooks.netlify.app",
           code_url: "https://github.com/Wjonke/github-finder-with-hooks",
           img_url:
             "https://image.thum.io/get/https://github-finder-with-hooks.netlify.app",
           description:
-            "This 'WIP' app is used to find github members with a simple search and then displays some metadata about the user selected",
+            "This app is used to find GitHub members with a simple search and then displays some metadata about the user selected",
           techStack:
-            "CSS, Javascript, React-hooks-context API, React-Router, Axios",
+            "CSS, JavaScript, React-hooks-context, React-Router, Axios, GitHub API",
           role:
-            "Develop a site to search through the Github API and parse user data to find users and display key parts of their profile.",
+            "Develop a site to search through the GitHub API and parse user data to find users and display key parts of their profile.",
         },
         {
           id: 6,
-          name: "Github Finder class components",
+          name: "GitHub Finder + class components",
           deployed_url: "https://github-finder-class-components.netlify.app/",
           code_url: "https://github.com/Wjonke/github-finder-class-components",
           img_url:
             "https://image.thum.io/get/https://github-finder-class-components.netlify.app/",
           description:
-            "This 'WIP' app is used to find github members with a simple search and then displays some metadata about the user selected",
+            "This app is used to find GitHub members with a simple search and then displays some metadata about the user selected",
           techStack:
-            "CSS, Javascript, React-class components, React-Router, Axios",
+            "CSS, JavaScript, React-class components, React-Router, Axios, GitHub API",
           role:
-            "Develop a site to search through the Github API and parse user data to find users and display key parts of their profile.",
+            "Develop a site to search through the GitHub API and parse user data to find users and display key parts of their profile.",
         },
       ]);
     });
