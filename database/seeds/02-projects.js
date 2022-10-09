@@ -11,7 +11,7 @@ exports.seed = function (knex) {
           img_url:
             "https://image.thum.io/get/https://merchdropper.netlify.app/",
           description:
-            "Merch Dropper is a quick and easy platform to upload designs and create products to create a drop-shipping online shop.",
+            "Merch Dropper is a quick and easy platform to upload designs and create products for drop-shipping online shop.",
           techStack: "Axios, Express, Knex, JWT, Stripe, PostgreSQL",
           role:
             "My focus was on developing the backend as well as incorporating third party APIs, and handling the distribution of data to ensure the backend and frontend API calls were in sync.",
