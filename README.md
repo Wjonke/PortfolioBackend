@@ -45,7 +45,6 @@
 
 ### Please feel free to reach out to me!
 
-- wesjonke@gmail.com
 - [My portfolio site](https://www.wesjonke.com 'Wes Jonke Portfolio')
 - [Linkedin](https://www.linkedin.com/in/wes-jonke/ 'Wes Jonke')
 - [Github](https://github.com/Wjonke 'Wes Jonke')
