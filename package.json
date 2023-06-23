@@ -1,39 +1,42 @@
 {
-  "name": "PortfolioBackend",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/Wjonke/PortfolioBackend.git",
-  "author": "wjonke <wesjonke@gmail.com>",
-  "license": "MIT",
-  "private": false,
-  "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js",
-    "test": "cross-env DB_ENV=testing jest --detectOpenHandles --forceExit "
-  },
-  "jest": {
-    "testEnvironment": "node"
-  },
-  "devDependencies": {
-    "cross-env": "5.2.0",
-    "jest": "^24.8.0",
-    "morgan": "^1.9.1",
-    "nodemon": "^1.19.4",
-    "supertest": "^4.0.2"
-  },
-  "dependencies": {
-    "axios": "^0.19.2",
-    "bcryptjs": "^2.4.3",
-    "colors": "^1.4.0",
-    "cors": "^2.8.5",
-    "dotenv": "^8.2.0",
-    "express": "^4.17.1",
-    "helmet": "^3.21.2",
-    "jsonwebtoken": "^8.5.1",
-    "knex": "^0.20.10",
-    "knex-cleaner": "^1.3.0",
-    "morgan": "^1.9.1",
-    "pg": "^7.18.2",
-    "sqlite3": "^4.1.0"
-  }
+    "name": "PortfolioBackend",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/Wjonke/PortfolioBackend.git",
+    "author": "wjonke <wesjonke@gmail.com>",
+    "license": "MIT",
+    "private": false,
+    "engines": {
+        "node": "15.10"
+    },
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon index.js",
+        "test": "cross-env DB_ENV=testing jest --detectOpenHandles --forceExit "
+    },
+    "jest": {
+        "testEnvironment": "node"
+    },
+    "devDependencies": {
+        "cross-env": "5.2.0",
+        "jest": "^24.8.0",
+        "morgan": "^1.9.1",
+        "nodemon": "^1.19.4",
+        "supertest": "^4.0.2"
+    },
+    "dependencies": {
+        "axios": "^0.19.2",
+        "bcryptjs": "^2.4.3",
+        "colors": "^1.4.0",
+        "cors": "^2.8.5",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "helmet": "^3.21.2",
+        "jsonwebtoken": "^8.5.1",
+        "knex": "^0.20.10",
+        "knex-cleaner": "^1.3.0",
+        "morgan": "^1.9.1",
+        "pg": "^7.18.2",
+        "sqlite3": "^4.1.0"
+    }
 }
