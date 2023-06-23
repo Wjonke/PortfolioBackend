@@ -6,6 +6,9 @@
   "author": "wjonke <wesjonke@gmail.com>",
   "license": "MIT",
   "private": false,
+   "engines": {
+        "node": "15.10"
+    },
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
